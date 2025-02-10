@@ -10,8 +10,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        color1: "var(--color1)",
+        color2: "var(--color2)",
+        color3: "var(--color3)",
       },
       screens: {
         sm: '640px',  // Mobile
