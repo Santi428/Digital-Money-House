@@ -6,11 +6,17 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  // darkMode: "class",
   theme: {
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      screens: {
+        sm: '640px',  // Mobile
+        md: '768px',  // Tablet
+        xl: '1280px', // Escritorio
       },
     },
   },
