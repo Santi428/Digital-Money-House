@@ -2,8 +2,8 @@
 
 const Footer = () => {
   return (
-    <footer>
-        <h4 className="bg-gray-700">2025 Digital Money House</h4>
+    <footer className="h-20 flex items-center bg-color2">
+        <h4 className="text-color3 pl-3">© 2025 Digital Money House</h4>
     </footer>
   )
 }
